@@ -1,0 +1,157 @@
+/* reset code and common starts here */
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.btn{
+    border: none;
+    padding: var(--padding);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: var(--transition);
+    font-size: 1.6vh;
+}
+
+:root{
+    --primary-color:rgb(6, 236, 75);
+    --secondary-color:rgba(6, 86, 54);
+    --padding:0.5rem;
+    --transition: all .2s linear ;
+    --border-radius: 0.7rem;
+    --box-shadow: 0.1rem 0.1rem 0.6rem rgb(95, 73, 73);
+}
+
+/* reset code and common ends here */
+
+/* responsive starts here */
+
+@media (max-width: 992px) {
+    .flex-space-around{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0rem;
+    }
+
+    /* #menu-icon{
+        display: block;
+        align-items: center;
+        margin: 1rem 0rem;
+        cursor: pointer;
+    }
+
+    .hidden{
+        display: none;
+    } */
+
+}
+
+    @media (max-width: 768px) {
+
+    }
+
+    @media (max-width: 660px){
+
+    }
+
+/* responsive ends here */
+
+/* navber starts here */
+
+#menu-icon{
+    display: none;
+    padding: var(--padding);
+}
+
+nav{
+    font-family: fantasy;
+    font-size: 1rem;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* nav-upper starts here */
+
+#menu-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav__upper{
+    min-height: 10vh;
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+}
+
+.nav__list{
+    transition: var(--transition);
+}
+.nav__list:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.nav__list{
+    color: beige;
+    transition: var(--transition);
+}
+.nav__list:hover{
+    
+    color: rgb(211, 144, 144);
+}
+
+.profile-icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: var(--transition);
+    filter: saturate(0);
+}
+
+.profile-icon:hover{
+    filter: saturate(2);
+}
+
+.nav__brand{
+    font-size: 2rem;
+}
+
+/* nav-upper ends here */
+
+/* nav__lower starts here */
+
+.nav__lower{
+    min-height: 10vh;
+    background-color: var(--secondary-color);
+    font-weight: initial;
+}
+/* nav__lower ends here */
+/* navber ends here */
+
+
+

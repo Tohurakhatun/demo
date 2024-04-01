@@ -1,0 +1,19 @@
+p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb( 71, 255, 51)
+   
+}
+#p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 15%;
+    text-decoration: underline;
+    text-decoration:overline;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    letter-spacing: 1.2rem;
+    text-shadow: .1rem .1rem rgba(201, 16, 56, 0.664);
+    color: rgb(24, 43, 218);
+}

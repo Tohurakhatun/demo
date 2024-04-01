@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+:root{
+    --padding: 1rem;
+    --margin:1rem
+
+}
+nav{
+    position: fixed;
+    background-color: chartreuse;
+    width: 100%;
+    font-size: large;
+    font-style: italic;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+header{
+    height: 100vh;
+    background-image: url(./img/bg-after.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    background-color: aqua;
+    padding: var(--padding);
+    margin: var(--margin);
+}
+.skill-titel-1{
+    text-align: center;
+
+}
+
+
+
+.skill-1{
+    background-color: brown;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-1{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.card-1{
+    background-color: aqua;
+    width: 300px;
+    padding: var(--padding);
+  
+}
+   
+footer{
+    background-color: darkorange;
+    height: 10vh;
+}

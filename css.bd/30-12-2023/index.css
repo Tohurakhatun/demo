@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+
+
+}
+:root{
+    --tex-color: #eb043e;
+    --pad:.5rem;
+    --margin:1rem
+}
+nav{
+    z-index: 1;
+    background-color: chartreuse;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: larger;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+    height: 100vh;
+    background-image: url(paris.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+main{
+    background-color: antiquewhite;
+    padding: 1rem;
+    color: var(--tex-color);
+}
+footer{
+    background-color: aqua;
+    padding: 1rem;
+    color: var(--tex-color);
+}
+.skill title{
+    text-align: center;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card{
+    width: 28%;
+    background-color: #eb043e;
+    padding: var(--pad);
+    color: aqua;
+    margin: var(--margin);
+    float: left;
+    
+}
+.card:hover{
+    box-shadow:  .1rem .2rem .8rem rgba(38, 0, 255.6);
+}
+.Test{
+    background-color:blue
+
+}
+.Test::after{
+   
+    content: "";
+    clear: both;
+    display: table;
+}
+#d1{
+    background-color: #eb043e;
+    width: 25%;
+    float: left;
+    margin: var(--margin);
+    padding: var(--pad);
+    
+
+}
+#d2{
+    background-color: rgb(255, 60, 0);
+    width: 25%;
+    float: left;
+    margin: var(--margin);
+    padding: var(--pad);
+    
+}
+#d3{
+    background-color: blueviolet;
+    width: 25%;
+    float: left;
+    margin: var(--margin);
+    padding: var(--pad);
+    
+}
+.Test{
+    background-color: #04eb36;
+    height: 20rem;
+}
+#d1{
+    background-color: blue;
+    width: 20rem;
+    
+}
+.Test{
+    background-color: aqua;
+}
+.Test-row{
+    background-color: brown;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card-1{
+    width: 28%;
+    background-color: blueviolet;
+    padding: var(--pad);
+    color: darkgoldenrod;
+}

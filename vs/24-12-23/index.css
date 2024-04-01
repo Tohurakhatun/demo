@@ -1,0 +1,11 @@
+a{
+    background-color: cadetblue;
+    color: black;
+    padding: 5px;
+    border: 2px solid red;
+    margin: 10px;
+    display: block;
+}
+h1{
+    display: inline;
+}

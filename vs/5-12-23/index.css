@@ -1,0 +1,45 @@
+button:disabled{
+    background-color: aquamarine;
+}
+p::first-letter{
+    color: blueviolet;
+}
+p::after{
+    content: "!";
+}
+p::before{
+    content: ">";
+}
+ul li:first-child{
+color: blue;
+}
+ul li:last-child{
+    color: brown;
+}
+ul li:nth-child(3){
+    color: burlywood;
+}
+ul li:nth-child(2){
+    color: chartreuse;
+}
+ul li:nth-child(5){
+    color: chartreuse;
+}
+ul li:nth-child(4){
+    color: coral;
+}
+ul li:nth-child(6){
+    color: crimson;
+}
+#d1>p{
+    color: blue;
+}
+#d2>p{
+    color: brown;
+}
+#d3>p{
+    color: rgb(255, 0, 13);
+}
+#d4>p{
+    color: chocolate;
+}

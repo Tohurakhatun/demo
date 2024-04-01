@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --text-col: brown;
+    --marrin:1rem;
+    --pad:1rem;
+
+}
+
+
+
+header{
+    background-image: url(./img/OIP.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    background-color: rgb(255, 0, 85);
+    padding: 1rem;
+    color: var(--tex-color);
+    margin: var(--marrin);
+    
+}
+footer{
+    background-color: blueviolet;
+    padding: 1rem;
+    color: var(--tex-color);
+    margin: var(--marrin);
+}
+skil h2{
+    text-align: center;
+
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.skill-title{
+    text-align: center;
+}
+.card{
+    width: 28%;
+    background-color: blue;
+    padding: var(--pad);
+    color: brown;
+    margin: var(--marrin);
+    float: left;
+}
+
+.card:hover{
+    box-shadow: .1rem .2rem .8rem gold;
+}

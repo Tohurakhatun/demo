@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+   text-decoration: none;
+}
+:root{
+    --padding:1rem
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: rgb(0, 255, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+nav ul{
+    
+    gap: 2rem;
+    font-size: larger;
+}
+
+header{
+    height: 100vh;
+    background-image: url(img/OIP\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: saturate(0);
+    
+}
+header:hover{
+    filter: saturate(1);
+}
+main{
+    background-color: aqua;
+    padding: var(--paddding);
+}
+
+h2{
+    background-color: rgb(237, 100, 118);
+    
+}
+.card{
+    background-color: rgb(61, 43, 226);
+    width: 25%;
+    height: 25vh;
+    padding: var(--paddding);
+}
+.card:hover{
+    box-shadow: .1rem .2rem .8rem rgb(42, 165, 89);
+}
+.row{
+    height: 80vh;
+    background-color: rgb(124, 24, 32);
+    padding: var(--paddding);
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+.card-body{
+    background-color: aqua;
+}
+.team-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85vh;
+    align-items: center;
+
+}
+.team-row{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 3rem;
+}
+.team-member{
+    background-color: brown;
+    padding: var(--padding);
+   
+}
+#m2{
+    background-color: blueviolet;
+    grid-column: 1 /span 3;
+    
+}

@@ -1,0 +1,18 @@
+/* blog banner section start header */
+.banner{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    font-size: large;
+    border: 2px solid chocolate;
+
+
+}
+.banner-hading{
+    text-align: center;
+    gap: 2rem;
+
+}
+
+/* blog banner section end header */
